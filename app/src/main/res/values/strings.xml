@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Lavapp</string>
+    <string name="cerrar_Sesion">Cerrar Sesion</string>
+    <string name="inicio">Inicio</string>
+    <string name="iniciar_sesion">Iniciar Sesion</string>
+    <string name="editar_perfil">Editar Perfil</string>
+    <string name="consultar_pedidos">Consultar Pedidos</string>
+    <string name="consultar_pedidos_asesor">Consultar Pedidos</string>
+    <string name="consultar_pedidos_entraga_asesor">Consultar Pedidos para Entrega</string>
+    <string name="title_activity_inicio">Inicio</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Registro</string>
+    <string name="title_activity_register_end">Registro Finalizado</string>
+    <string name="title_activity_consultar_pedido">Consultar Pedido</string>
+    <string name="title_activity_consulta_descripcion_pedido">Consulta de Productos</string>
+    <string name="title_activity_detalle_de_orden">Detalle De Orden</string>
+    <string name="title_activity_pago">Pago</string>
+    <string name="title_activity_pedido_parte1">Pedido</string>
+    <string name="title_activity_pedido_parte2">Lugar de Entrega y Recibido</string>
+    <string name="title_activity_login_sin_registro">Login</string>
+    <string name="title_activity_pedido_parte3">Información Personal</string>
+    <string name="title_activity_asesor_inicio">Inicio</string>
+    <string name="title_activity_consultar_pedidos_asesor">Consultar Pedidos</string>
+    <string name="title_activity_consultar_descrip_pedidos_asesor">Consultar Productos
+    </string>
+    <string name="title_activity_consultar_producto_asesor">Consultar Producto</string>
+    <string name="title_activity_consultar_pedidos_asesor_entrega">Consultar Pedidos Entrega
+    </string>
+    <string name="title_activity_consultar_descrip_pedido_asesor_entrega">
+        Consultar productos Entrega
+    </string>
+    <string name="title_activity_historico">Historico</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipoPago">
+        <!--<item>Pago con Tarjeta</item>-->
+        <item>Pago en Persona</item>
+    </string-array>
+
+    <!--<string-array name="tipoTarjeta">-->
+        <!--<item>VISA</item>-->
+        <!--<item>DINERS</item>-->
+        <!--<item>AMEX</item>-->
+        <!--<item>CREDENCIAL</item>-->
+        <!--<item>MASTERCARD</item>-->
+    <!--</string-array>-->
+
+
+</resources>

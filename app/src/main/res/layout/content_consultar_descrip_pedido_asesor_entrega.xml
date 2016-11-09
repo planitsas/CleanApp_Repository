@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="co.com.planit.lavapp.Adviser.ConsultarDescripPedidoAsesorEntrega"
+    tools:showIn="@layout/activity_consultar_descrip_pedido_asesor_entrega">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Fecha de Entrega"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/tvFecha"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Rango de Horas"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/tvRango"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Dirección de Entrega"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/tvDireccion"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="¿Quien Recibe?"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/tvQuien"
+            android:layout_height="wrap_content" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listView1"
+            android:background="@color/blueWater"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+</RelativeLayout>

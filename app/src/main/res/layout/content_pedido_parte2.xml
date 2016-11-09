@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/blueWater"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="co.com.planit.lavapp.client.PedidoParte2"
+    tools:showIn="@layout/activity_pedido_parte2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#74cdee"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Detalles de Entrega"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorBlue"
+            android:layout_marginBottom="15dp"
+            android:paddingTop="3dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:text="Definir fecha de entrega de prendas"
+            android:editable="false"
+            android:id="@+id/tvFecha" />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/etFecha"
+            android:editable="false"/>
+
+        <Button
+            android:id="@+id/btnBuscarFecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_blue"
+            android:padding="1dp"
+            android:text="Seleccionar Fecha"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zona Horaria"
+            android:editable="false"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spRangoHoras"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Barrio"
+            android:layout_height="wrap_content" />
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:enabled="false"
+            android:id="@+id/acBarrio" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Dirección"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etDireccion"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="¿Quien entrega?"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etEntrega"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#83bb4b"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Detalles para Recibir"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorBlue"
+            android:layout_marginBottom="15dp"
+            android:paddingTop="3dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:text="Definir fecha para recibir las prendas"
+            android:editable="false" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/etFecha2"
+            android:editable="false"/>
+
+        <Button
+            android:id="@+id/btnBuscarFecha2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_blue"
+            android:padding="1dp"
+            android:text="Seleccionar Fecha"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Zona Horaria"
+            android:editable="false"
+            android:id="@+id/tvTTarjeta2"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spRangoHoras2"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Barrio"
+            android:layout_height="wrap_content" />
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:enabled="false"
+            android:id="@+id/acBarrio2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Dirección"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etDireccion2"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="¿Quien Recibe?"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/etRecibir"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/btContinuar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_blue"
+            android:padding="1dp"
+            android:text="Continuar"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true" />
+
+    </LinearLayout>
+
+</ScrollView>

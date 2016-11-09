@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.com.planit.lavapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".common.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".client.Inicio"
+            android:label="@string/title_activity_inicio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".common.Login"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".common.Register"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".common.EditarPerfil"
+            android:label="@string/editar_perfil"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".client.RegisterEnd"
+            android:label="@string/title_activity_register_end"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".client.ConsultarPedido"
+            android:label="@string/title_activity_consultar_pedido"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".client.ConsultaDescripcionPedido"
+            android:label="@string/title_activity_consulta_descripcion_pedido"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".client.DetalleDeOrden"
+            android:label="@string/title_activity_detalle_de_orden"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".client.Pago"
+            android:label="@string/title_activity_pago"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".client.PedidoParte1"
+            android:label="@string/title_activity_pedido_parte1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".client.PedidoParte2"
+            android:label="@string/title_activity_pedido_parte2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".common.LoginSinRegistro"
+            android:label="@string/title_activity_login_sin_registro"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".client.PedidoParte3"
+            android:label="@string/title_activity_pedido_parte3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Adviser.AsesorInicio"
+            android:label="@string/title_activity_asesor_inicio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Adviser.ConsultarPedidosAsesor"
+            android:label="@string/title_activity_consultar_pedidos_asesor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Adviser.ConsultarDescripPedidosAsesor"
+            android:label="@string/title_activity_consultar_descrip_pedidos_asesor"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Adviser.ConsultarProductoAsesor"
+            android:label="@string/title_activity_consultar_producto_asesor"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Adviser.ConsultarPedidosAsesorEntrega"
+            android:label="@string/title_activity_consultar_pedidos_asesor_entrega"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Adviser.ConsultarDescripPedidoAsesorEntrega"
+            android:label="@string/title_activity_consultar_descrip_pedido_asesor_entrega"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".client.Historico"
+            android:label="@string/title_activity_historico"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

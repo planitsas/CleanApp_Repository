@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".common.MainActivity">
+    <item
+        android:id="@+id/inicio"
+        android:orderInCategory="100"
+        android:title="@string/inicio"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/consultar_pedidos_asesor"
+        android:orderInCategory="100"
+        android:title="@string/consultar_pedidos_asesor"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/consultar_pedidos_entrega_asesor"
+        android:orderInCategory="100"
+        android:title="@string/consultar_pedidos_entraga_asesor"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/editar_perfil"
+        android:orderInCategory="100"
+        android:title="@string/editar_perfil"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/cerrar_Sesion"
+        android:orderInCategory="100"
+        android:title="@string/cerrar_Sesion"
+        app:showAsAction="never" />
+</menu>

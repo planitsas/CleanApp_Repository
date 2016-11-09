@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="2dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".client.Inicio"
+    tools:showIn="@layout/activity_inicio">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:id="@+id/horizontalScrollView" >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <Button
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bCamisas"
+            android:drawableTop="@mipmap/camisas_camisetas"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:text="Camisas-Camisetas"
+            android:textAlignment="center"
+            android:textSize="11dp"
+            android:background="@drawable/menu_categoria"
+            android:textColor="@color/colorGreen"/>
+
+        <Button
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bTrajes"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:drawableTop="@mipmap/vestidos_pano"
+            android:text="Vestidos Paño"
+            android:textSize="11dp"
+            android:textAlignment="center"
+            android:background="@drawable/menu_categoria"
+            android:textColor="@color/colorGreen"/>
+        <Button
+
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bFaldas"
+            android:textSize="11dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:drawableTop="@mipmap/vestidos_dama"
+            android:text="Vestidos Dama"
+            android:textAlignment="center"
+            android:background="@drawable/menu_categoria"
+            android:textColor="@color/colorGreen"/>
+
+
+        <Button
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bChaqueta"
+            android:textSize="11dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:drawableTop="@mipmap/chaqueta_abrigo"
+            android:text="Chaquetas-Abrigos"
+            android:textAlignment="center"
+            android:background="@drawable/menu_categoria"
+            android:textColor="@color/colorGreen"/>
+
+
+        <Button
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bPantalones"
+            android:drawableTop="@mipmap/jeans_pantalones"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textSize="11dp"
+            android:text="Jeans-Pantalones"
+            android:textAlignment="center"
+            android:background="@drawable/menu_categoria"
+            android:textColor="@color/colorGreen"/>
+        <Button
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bSaco"
+            android:textSize="11dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:drawableTop="@mipmap/sacos_buss"
+            android:text="Sacos-Busos"
+            android:textAlignment="center"
+            android:background="@drawable/menu_categoria"
+            android:textColor="@color/colorGreen"/>
+        <Button
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:textSize="11dp"
+            android:id="@+id/bAccesorios"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:drawableTop="@mipmap/accesorios"
+            android:text="Accesorios"
+            android:textAlignment="center"
+            android:background="@drawable/menu_categoria"
+            android:textColor="@color/colorGreen"/>
+        <Button
+            android:layout_width="135dp"
+            android:textSize="11dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bCama"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:drawableTop="@mipmap/cama"
+            android:textColor="@color/colorGreen"
+            android:text="Cama"
+            android:textAlignment="center"
+            android:background="@drawable/menu_categoria" />
+        <Button
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bHogar"
+            android:textSize="11dp"
+            android:drawableTop="@mipmap/hogar"
+            android:text="Hogar"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorGreen"
+            android:background="@drawable/menu_categoria" />
+
+    </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="65dp"
+        android:orientation="vertical">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listView1"
+            android:background="@color/blueWater"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".common.MainActivity">
+    <item
+        android:id="@+id/inicio"
+        android:orderInCategory="100"
+        android:title="@string/inicio"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/iniciar_sesion"
+        android:orderInCategory="100"
+        android:title="@string/iniciar_sesion"
+        app:showAsAction="never" />
+</menu>
